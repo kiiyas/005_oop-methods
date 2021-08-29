@@ -38,7 +38,7 @@ test('Should levelUp', () => {
   });
 });
 
-test('Error levelUp', () => { 
+test('Error levelUp', () => {
   expect(() => {
     const bowerman = new Bowerman('yuyuyu', 'Bowerman');
     bowerman.health = 0;
