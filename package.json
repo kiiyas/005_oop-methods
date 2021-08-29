@@ -1,5 +1,5 @@
 {
-  "name": "ajs__unit-test__matchers",
+  "name": "ajs__oop-methods",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -39,11 +39,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kiiyas/004_unit-test_Matchers.git"
+    "url": "git+https://github.com/kiiyas/005_oop-methods.git"
   },
   "bugs": {
-    "url": "https://github.com/kiiyas/004_unit-test_Matchers/issues"
+    "url": "https://github.com/kiiyas/005_oop-methods/issues"
   },
-  "homepage": "https://github.com/kiiyas/004_unit-test_Matchers#readme",
-  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/5k5dx2njfunhixjh?svg=true)](https://ci.appveyor.com/project/kiiyas/004-unit-test-pure-functions)"
+  "homepage": "https://github.com/kiiyas/005_oop-methods#readme",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/js3ysn8525cnu0rh?svg=true)](https://ci.appveyor.com/project/kiiyas/005-oop-methods)"
 }
