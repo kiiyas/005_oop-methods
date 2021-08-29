@@ -33,7 +33,7 @@ test('Should levelUp', () => {
     health: 100,
     level: 2,
     attack: 30,
-    defence: 30,
+    defens: 30,
   };
 
   expect(bowerman).toEqual(result);
