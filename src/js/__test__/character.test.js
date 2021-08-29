@@ -27,18 +27,18 @@ test('if the character is not on the list, throws an error', () => {
 test('Should levelUp', () => {
   const bowerman = new Bowerman('yuyuyu', 'Bowerman');
   bowerman.levelUp();
-  const result = bowerman; 
+  const result = bowerman;
   expect(result).toEqual({
-    name: "yuyuyu",
-    type: "Bowerman",
+    name: 'yuyuyu',
+    type: 'Bowerman',
     health: 100,
     level: 2,
     attack: 30,
-    defence: 30
+    defence: 30,
   });
 });
 
-test('Error levelUp', () => {  
+test('Error levelUp', () => { 
   expect(() => {
     const bowerman = new Bowerman('yuyuyu', 'Bowerman');
     bowerman.health = 0;
@@ -57,20 +57,20 @@ test('Should take a damage', () => {
     health: 92.5,
     level: 1,
     attack: 25,
-    defence: 25
+    defence: 25,
   });
 });
 
-test('Should damage correctly', () => {  
+test('Should damage correctly', () => {
   const bowerman = new Bowerman('yuyuyu', 'Bowerman');
-  bowerman.health =  - 10;
+  bowerman.health = -10;
   bowerman.damage(10);
   expect(bowerman).toEqual({
-    name: "yuyuyu",
-    type: "Bowerman",
-    health: - 10,
+    name: 'yuyuyu',
+    type: 'Bowerman',
+    health: -10,
     level: 1,
     attack: 25,
-    defence: 25
+    defence: 25,
   });
 });
