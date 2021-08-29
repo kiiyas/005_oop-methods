@@ -21,16 +21,18 @@ export default class Character {
   levelUp() {
     if (!this.health) throw new Error('WAISTED');
     this.level += 1;
-    this.attack += this.attack / 100 * 20,
-    this.defence += this.defence / 100 * 20;
+    this.attack *= 1.2;
+    this.defence *= 1.2;
     this.health = 100;
   }
 
   damage(points) {
-    if (this.health >= 0) {
+    if (this.health > 0) {
       this.health -= points * (1 - this.defence / 100);
-    } 
+    }
+    
+    if (this.health < 0) {
+      this.health = 0;
+    }
   }
 }
-
-
